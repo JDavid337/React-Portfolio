@@ -1,4 +1,4 @@
-import './portfolio.css'
+import './portfolio.scss'
 import Work from '../works/works'
 export default function Portfolio() {
     const projects = ['myTripr', 'LyricFinder', 'ClosetOrganizer']

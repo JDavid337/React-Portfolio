@@ -1,4 +1,4 @@
-import './topbar.css'
+import './topbar.scss'
 
 export default function Topbar(props) {
     const {components, setComponent} = props

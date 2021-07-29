@@ -8,15 +8,16 @@ import Topbar from './components/topbar/topbar'
 import Works from './components/works/works'
 
 function App() {
-  const [components, setComponents] = useState(
+
+/*  const [components, setComponents] = useState(
     [<Intro />,
     <Portfolio />,
     <Testimonials />,
     <Contact />])
   const [component, setComponent] = useState(
   components [0]
+  )*/
 
-  )
   return (
     <div className="app">
       <Topbar components = {components}
